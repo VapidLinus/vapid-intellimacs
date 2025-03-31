@@ -13,6 +13,11 @@ let g:WhichKeyDesc_Major_Help_ShowDocumentation = "<leader>mhh show-documentatio
 nnoremap <leader>mhh      :action QuickJavaDoc<CR>
 vnoremap <leader>mhh      <Esc>:action QuickJavaDoc<CR>
 
+" Show parameter info
+let g:WhichKeyDesc_Major_Help_ShowParameters = "<leader>mhh show-parameters"
+nnoremap <leader>mhp      :action ParameterInfo<CR>
+vnoremap <leader>mhp      <Esc>:action ParameterInfo<CR>
+
 " Inheritance hierarchy
 let g:WhichKeyDesc_Major_Help_InheritanceHierarchy = "<leader>mhi inheritance-hierarchy"
 nnoremap <leader>mhi      :action TypeHierarchy<CR>
